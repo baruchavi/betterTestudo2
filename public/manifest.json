@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Better Testudo",
+    "version": "3",
+    "action": {
+        "default_title": "Better Testudo"
+    },
+    "description": "Upgrades the Testudo class search system to make it more usable and efficient",
+    "permissions": [
+      "storage"
+   ],
+    "background": {
+        "service_worker": "ratings_cache.js"
+    }
+}
